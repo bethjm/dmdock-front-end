@@ -1,0 +1,256 @@
+@import url('https://fonts.cdnfonts.com/css/tex-gyre-bonum');
+@import url('https://fonts.cdnfonts.com/css/dragon-hunter');          
+
+
+/* see fav or monster button */
+.hidden {
+    display: none;
+  }
+.visible {
+    display: block;
+  }
+#hidden {
+    visibility: hidden;
+    height: 0;
+  }
+#visible {
+    visibility: visible;
+  }
+
+
+
+  /* header */
+
+  .monster-page {
+    background-color: #5E53A8;
+    z-index: -2;
+  }
+
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    font-size: 1rem;
+  }
+
+  .dragon, .heart {
+    color: white;
+    font-family: 'TeXGyreBonum', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+  }
+
+
+.monster-table {
+  background-color: #5E53A8;
+}
+
+#monsters-title {
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'DRAGON HUNTER', sans-serif;
+  color: white;
+      text-shadow: -2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+}
+
+#monsters-sub-title {
+  font-family: 'DRAGON HUNTER', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+      text-shadow: -.5px .5px 0 #000,
+    .5px .5px 0 #000,
+   .5px -.5px 0 #000,
+  -.5px -.5px 0 #000;
+}
+
+.drop-down {
+  width: 28%; 
+  padding: 1% 2% 1% 2%;
+  margin-left: 35%;
+  margin-bottom: 1%;
+  font-family: 'TeXGyreBonum', sans-serif;
+}
+
+.search {
+  padding-bottom: 3%;
+  margin-left: 35%;
+}
+
+.search input {
+  width: 43%;
+  padding: 1% 1%;
+  font-size: 1rem;
+  font-family: 'TeXGyreBonum', sans-serif;
+}
+
+.search-result {
+  width: 60%;
+  background-color: white;
+  z-index: 3;
+  font-family: 'TeXGyreBonum', sans-serif;
+
+}
+
+.search-result div {
+  width: 60%;
+  padding: 3% 5%;
+  background-color: white;
+}
+
+
+  /* table */
+
+#monsters {
+  font-family: 'TeXGyreBonum', sans-serif;  
+  border-collapse: collapse;
+  width: 100%;
+  overflow: auto;
+  z-index: -1;
+  background-color:white;
+}
+
+#monsters td, #monsters th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  overflow: auto;
+
+}
+
+#monsters tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#monsters tr:hover {
+  background-color: #ddd;
+}
+
+#monsters th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: #010002;
+}
+
+
+#add-to-favorites {
+  color: #DE0A16;
+  margin-left: 40%;
+}
+
+/* show page */
+
+.show-page {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background-color: #D6BA97;
+  z-index: 2;
+  overflow: scroll;
+}
+
+.show-page-contents {
+  margin-left: 5%;
+}
+
+#show-page-name {
+  font-size: 5rem;
+  font-family: 'DRAGON HUNTER', sans-serif;
+  color: #010002;
+  text-shadow: -2px 2px 0 white,
+  2px 2px 0 white,
+ 2px -2px 0 white,
+-2px -2px 0 white;
+}
+
+#type-size {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  font-size: 2rem;
+  font-family: 'DRAGON HUNTER', sans-serif;
+  color: #010002;
+  text-shadow: -2px 2px 0 white,
+  2px 2px 0 white,
+ 2px -2px 0 white,
+-2px -2px 0 white;
+}
+
+.all-of-the-tables {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.battle-table {
+   background-color: #957CB9;
+   width: 56%;
+   margin-bottom: 5%;
+   border-collapse: collapse;
+}
+
+.saving-table {
+  background-color: #DE0A16;
+  width: 50%;
+  margin-bottom: 5%;
+  border-collapse: collapse;
+}
+
+.stats-table {
+  background-color: #5E53A8;
+  width: 50%;
+  margin-bottom: 5%;
+  border-collapse: collapse;
+}
+
+.battle-table table, .saving-table table, .stats-table table {
+  background-color: white;
+  width: 100%;
+}
+
+.battle-table h1, .saving-table h1, .stats-table h1 {
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-family: 'DRAGON HUNTER', sans-serif;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.battle-table td, .saving-table td, .stats-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  overflow: auto;
+
+}
+
+.battle-table tr:nth-child(even), .saving-table tr:nth-child(even), .stats-table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.battle-table tr:hover , .saving-table tr:hover, .stats-table tr:hover{
+  background-color: #ddd;
+}
+
+
+/* fav monsters */
+
+#fav-monsters-title {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'DRAGON HUNTER', sans-serif;
+  color: white;
+      text-shadow: -2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+}
+

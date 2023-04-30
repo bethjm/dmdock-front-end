@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/dragon-hunter');          
+@import url('https://fonts.cdnfonts.com/css/tex-gyre-bonum');
+
+
+.nav-bar{
+height: 10vh;
+background-color: #5E53A8;
+overflow: hidden;
+}
+
+.nav-link {
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'TeXGyreBonum', sans-serif;
+    text-decoration: none; 
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: -.5px .5px 0 #000,
+    .5px .5px 0 #000,
+   .5px -.5px 0 #000,
+  -.5px -.5px 0 #000;
+}
+
+#logo {
+    font-family: 'DRAGON HUNTER', sans-serif;
+    font-size: 3rem;
+    float: left;
+    padding: 0;
+    margin-left: 2%;
+    text-shadow: -2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+}
+
+  /* PAGINATION */
+
+#pagination-button {
+    background-color: #5E53A8;
+    color: #FEFEFE;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+}

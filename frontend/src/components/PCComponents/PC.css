@@ -1,0 +1,39 @@
+
+header {
+    /* display: flex;
+    flex-direction: row; */
+    background-color: #5E53A8;
+    padding-bottom: 5%;
+}
+
+#pc-header {
+    font-family: 'DRAGON HUNTER', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+        text-shadow: -2px 2px 0 #000,
+      2px 2px 0 #000,
+     2px -2px 0 #000,
+    -2px -2px 0 #000;
+}
+
+#add-pc-button {
+    margin-left: 30%;
+    width: 40%;
+}
+
+#pc-cards-page {
+    margin-top: 5%;
+}
+
+#pc-card {
+    font-family: 'TeXGyreBonum', sans-serif;
+    font-size: 1.5rem;
+}
+
+#pc-name {
+    font-family: 'DRAGON HUNTER', sans-serif;
+    font-size: 3rem;
+    color: black;
+    
+}
