@@ -10,7 +10,6 @@ import Register from "./views/registerPage";
 import Monster from "./components/Monsters";
 import Favorites from "./components/Favorites";
 import PCShow from "./components/PCShow";
-import Search from "./components/Search";
 
 function App() {
   return (
