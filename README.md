@@ -26,7 +26,7 @@ This application was designed with Dungeons and Dragons (D&D) game masters in mi
 
 - Access the website: [DM Dock](https://dmdock.netlify.app/)
 
-- Explore the frontend repository: [DM Dock Back End](https://github.com/bethjm/dmdock-front-end)
+- Explore the backend repository: [DM Dock Back End](https://github.com/bethjm/dmdock-front-end)
 
 ***User Statistics***
 
