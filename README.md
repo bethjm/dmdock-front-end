@@ -1,29 +1,33 @@
-# dmdock-front-end
+# DM Dock
 
-<h1 align="center">D&D Game Master's Toolkit<h1>
-  </br> 
-<h3>Overview<h3>
-  </br> 
-<p> The D&D Game Master's Toolkit is an online application designed specifically for Game Masters (GMs) of Dungeons & Dragons. It provides a user-friendly interface that allows GMs to easily access campaign details and manage game play effectively.</p>
+This application was designed with Dungeons and Dragons (D&D) game masters in mind, particularly my partner who runs two D&D games each week. The primary challenge he faced was the inconvenience of managing multiple open programs during game sessions, leading to confusion and system slowdowns on his laptop.
+
+***Features***
+
+- **Centralized Information:** DM Dock serves as a one-stop solution for game masters to access monster stats, manage player information, and generate random weather patterns.
+
+- **Favorites List:** Users can save monster data in a favorites list, facilitating quick and easy access to essential information.
+
+- **Private Profiles:** DM Dock utilizes JWT Web tokens, allowing each game master to create and maintain their private profiles for added security.
+
+***Tech Stack***
+
+- **Backend:** Built using Django, PostgreSQL, JSON Web Tokens.
   
- <h3>Features</h3>
- </br> 
- <ul>
-   <li>User Authentication: GMs can create personal accounts and log in securely using JWT user authorization. </li>
-   <li>Monster Database: The application makes calls to the Open5e API, providing access to a comprehensive collection of 1,500 different monsters for GMs to choose from during game play. </li>
-   <li>Favorite Monsters: GMs can save their favorite monsters to a local storage, making it convenient to access frequently used creatures. </li>
-   <li>Player Details: The application allows GMs to save customized player details using LocalStorage, providing easy access to character information and progress. </li>
-   <li>Pagination: The app incorporates pagination functionality, ensuring smooth navigation and efficient browsing of large datasets.</li> 
-   <li>Sorting Feature: GMs can sort monsters or player details based on various attributes such as name, level, or type, enhancing the ability to manage and organize game elements. </li>
-  </ul> 
-  </br> 
-  <h3>Technologies Used</h3>
-  </br> 
-  <ul>
-    <li>Front-end: HTML, CSS, JavaScript</li> 
-    <li>Back-end: Node.js, Express.js </li>
-    <li>Database: LocalStorage </li>
-    <li>API: Open5e API</li>
-  </ul>
-  </br> 
-  <p>If you are interested in looking at the code for the back end here is the link: https://github.com/bethjm/dmdock-back-end</p>
+- **Frontend:** Developed with ReactJS, leveraging React Hooks, LocalStorage, React Router, and CSS for a seamless user experience.
+
+***Data Sources***
+
+- **Open5e Monster API:** The app pulls information from the Open5e Monster API, making a vast collection of 1,500 monsters easily searchable.
+
+- **Local Storage:** Favorites lists for both monsters and players utilize local storage for data persistence, providing a cost-effective solution.
+
+***Usage***
+
+- Access the website: [DM Dock](https://dmdock.netlify.app/)
+
+- Explore the frontend repository: [DM Dock Back End](https://github.com/bethjm/dmdock-front-end)
+
+***User Statistics***
+
+DM Dock currently has 2 active users per month.
