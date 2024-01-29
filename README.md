@@ -9,7 +9,7 @@ I created DM Dock as a solve for these problems. It provides a one stop stop to 
 - Access the website: [DM Dock](https://dmdock.netlify.app/)
 
 - Explore the backend repository: [DM Dock Front End](https://github.com/bethjm/dmdock-front-end)
-- 
+  
 ***Features***
 
 - **Centralized Information:** DM Dock serves as a one-stop solution for game masters to access monster stats, manage player information, and generate random weather patterns.
